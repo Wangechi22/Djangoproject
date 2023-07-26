@@ -1,6 +1,8 @@
 #CHEAT SHEET
 COMMANDS
-1.)python manage.py runserver - to run app on browser
-2.)python manage.py makemigrations - to prepare migration file
-3.)python manage.py migrate - to effect changes on migration file
-4.)python manage.py createsuperuser - to create a super admin
+-> python manage.py runserver - to run app on browser #runs in a different terminal from the rest below
+done before even creating the html files
+
+1.)python manage.py makemigrations - to prepare migration file
+2.)python manage.py migrate - to effect changes on migration file
+3.)python manage.py createsuperuser - to create a super admin

@@ -20,10 +20,13 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('insert', views.insertData, name='insertData'),
     path('about/', views.aboutpage, name='about'),
     path('services/', views.servicespage, name='services'),
-    path('blog/', views.blopage, name='blog'),
-    path('projects/', views.projectspage, name='projects')
+    path('login/', views.loginpage, name='login'),
+    path('projects/', views.projectspage, name='projects'),
+    path('', views.indexpage, name='index'),
+    path('signup', views.signuppage, name='sign up'),
 
 
 ]
